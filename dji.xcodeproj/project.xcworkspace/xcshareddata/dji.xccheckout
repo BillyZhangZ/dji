@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>52554608-DF11-4405-890C-382344EFDF6C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>dji</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>6853A7C77A3F56E0A8CB3A5DDA2F1D4F6E9F82BD</key>
 		<string>https://github.com/BillyZhangZ/dji.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>dji.xcodeproj</string>
+	<string>dji.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6853A7C77A3F56E0A8CB3A5DDA2F1D4F6E9F82BD</key>
