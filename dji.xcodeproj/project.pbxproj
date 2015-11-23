@@ -9,11 +9,25 @@
 /* Begin PBXBuildFile section */
 		83013E2C1C018E190065B5C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83013E2B1C018E190065B5C2 /* main.m */; };
 		83013E2F1C018E190065B5C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83013E2E1C018E190065B5C2 /* AppDelegate.m */; };
-		83013E321C018E190065B5C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83013E311C018E190065B5C2 /* ViewController.m */; };
-		83013E351C018E190065B5C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83013E331C018E190065B5C2 /* Main.storyboard */; };
 		83013E371C018E190065B5C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83013E361C018E190065B5C2 /* Images.xcassets */; };
 		83013E3A1C018E190065B5C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83013E381C018E190065B5C2 /* LaunchScreen.xib */; };
 		83013E461C018E190065B5C2 /* djiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83013E451C018E190065B5C2 /* djiTests.m */; };
+		83013E611C01D9F40065B5C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E601C01D9F40065B5C2 /* UIKit.framework */; };
+		83013E631C01D9FB0065B5C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E621C01D9FB0065B5C2 /* Foundation.framework */; };
+		83013E651C01DAA30065B5C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E641C01DAA30065B5C2 /* QuartzCore.framework */; };
+		83013E661C01DABD0065B5C2 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E531C01D77B0065B5C2 /* MAMapKit.framework */; };
+		83013E671C01DAED0065B5C2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E5B1C01D94C0065B5C2 /* CoreLocation.framework */; };
+		83013E691C01DB180065B5C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E681C01DB180065B5C2 /* CoreGraphics.framework */; };
+		83013E6B1C01DB550065B5C2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E6A1C01DB550065B5C2 /* libz.dylib */; };
+		83013E6D1C01DB680065B5C2 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E6C1C01DB680065B5C2 /* libstdc++.6.0.9.dylib */; };
+		83013E6F1C01DB780065B5C2 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E6E1C01DB780065B5C2 /* libicucore.dylib */; };
+		83013E711C01DB9B0065B5C2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E701C01DB9B0065B5C2 /* OpenGLES.framework */; };
+		83013E731C01DBE90065B5C2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E721C01DBE90065B5C2 /* SystemConfiguration.framework */; };
+		83013E751C01DC120065B5C2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E741C01DC120065B5C2 /* Security.framework */; };
+		83013E771C01DC5C0065B5C2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E761C01DC5C0065B5C2 /* CoreTelephony.framework */; };
+		83013E7D1C01E7E50065B5C2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83013E7B1C01E7E50065B5C2 /* MainViewController.m */; };
+		83013E7E1C01E7E50065B5C2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83013E7C1C01E7E50065B5C2 /* MainViewController.xib */; };
+		83013E871C0333640065B5C2 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83013E861C0333640065B5C2 /* AMap.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +46,33 @@
 		83013E2B1C018E190065B5C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83013E2D1C018E190065B5C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83013E2E1C018E190065B5C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		83013E301C018E190065B5C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		83013E311C018E190065B5C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		83013E341C018E190065B5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83013E361C018E190065B5C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		83013E391C018E190065B5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		83013E3F1C018E190065B5C2 /* djiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = djiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83013E441C018E190065B5C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83013E451C018E190065B5C2 /* djiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = djiTests.m; sourceTree = "<group>"; };
+		83013E531C01D77B0065B5C2 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MAMapKit.framework; path = dji/Framework/Mamap/MAMapKit.framework; sourceTree = "<group>"; };
+		83013E551C01D7930065B5C2 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = dji/Framework/WechatShare/libWeChatSDK.a; sourceTree = "<group>"; };
+		83013E571C01D7A20065B5C2 /* libPushSDK-1.8.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPushSDK-1.8.3.a"; path = "dji/Framework/JPush/libPushSDK-1.8.3.a"; sourceTree = "<group>"; };
+		83013E591C01D7C00065B5C2 /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SMS_SDK.framework; path = dji/Framework/Sms/SMS_SDK.framework; sourceTree = "<group>"; };
+		83013E5B1C01D94C0065B5C2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		83013E5D1C01D9710065B5C2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		83013E601C01D9F40065B5C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83013E621C01D9FB0065B5C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83013E641C01DAA30065B5C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		83013E681C01DB180065B5C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83013E6A1C01DB550065B5C2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		83013E6C1C01DB680065B5C2 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		83013E6E1C01DB780065B5C2 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		83013E701C01DB9B0065B5C2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		83013E721C01DBE90065B5C2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		83013E741C01DC120065B5C2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		83013E761C01DC5C0065B5C2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		83013E7A1C01E7E50065B5C2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ViewController/MainViewController.h; sourceTree = "<group>"; };
+		83013E7B1C01E7E50065B5C2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ViewController/MainViewController.m; sourceTree = "<group>"; };
+		83013E7C1C01E7E50065B5C2 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ViewController/MainViewController.xib; sourceTree = "<group>"; };
+		83013E821C01ED260065B5C2 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = Model/config.h; sourceTree = "<group>"; };
+		83013E861C0333640065B5C2 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = dji/Framework/Mamap/MAMapKit.framework/Versions/2.5.1.174fe76.60159/Resources/AMap.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +80,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83013E771C01DC5C0065B5C2 /* CoreTelephony.framework in Frameworks */,
+				83013E751C01DC120065B5C2 /* Security.framework in Frameworks */,
+				83013E731C01DBE90065B5C2 /* SystemConfiguration.framework in Frameworks */,
+				83013E711C01DB9B0065B5C2 /* OpenGLES.framework in Frameworks */,
+				83013E6F1C01DB780065B5C2 /* libicucore.dylib in Frameworks */,
+				83013E6D1C01DB680065B5C2 /* libstdc++.6.0.9.dylib in Frameworks */,
+				83013E6B1C01DB550065B5C2 /* libz.dylib in Frameworks */,
+				83013E691C01DB180065B5C2 /* CoreGraphics.framework in Frameworks */,
+				83013E671C01DAED0065B5C2 /* CoreLocation.framework in Frameworks */,
+				83013E661C01DABD0065B5C2 /* MAMapKit.framework in Frameworks */,
+				83013E651C01DAA30065B5C2 /* QuartzCore.framework in Frameworks */,
+				83013E631C01D9FB0065B5C2 /* Foundation.framework in Frameworks */,
+				83013E611C01D9F40065B5C2 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +109,8 @@
 		83013E1D1C018E190065B5C2 = {
 			isa = PBXGroup;
 			children = (
+				83013E861C0333640065B5C2 /* AMap.bundle */,
+				83013E5F1C01D98B0065B5C2 /* frameworks */,
 				83013E281C018E190065B5C2 /* dji */,
 				83013E421C018E190065B5C2 /* djiTests */,
 				83013E271C018E190065B5C2 /* Products */,
@@ -81,11 +129,10 @@
 		83013E281C018E190065B5C2 /* dji */ = {
 			isa = PBXGroup;
 			children = (
+				83013E791C01E7B10065B5C2 /* Model */,
+				83013E781C01E7A80065B5C2 /* ViewController */,
 				83013E2D1C018E190065B5C2 /* AppDelegate.h */,
 				83013E2E1C018E190065B5C2 /* AppDelegate.m */,
-				83013E301C018E190065B5C2 /* ViewController.h */,
-				83013E311C018E190065B5C2 /* ViewController.m */,
-				83013E331C018E190065B5C2 /* Main.storyboard */,
 				83013E361C018E190065B5C2 /* Images.xcassets */,
 				83013E381C018E190065B5C2 /* LaunchScreen.xib */,
 				83013E291C018E190065B5C2 /* Supporting Files */,
@@ -117,6 +164,48 @@
 				83013E441C018E190065B5C2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83013E5F1C01D98B0065B5C2 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83013E761C01DC5C0065B5C2 /* CoreTelephony.framework */,
+				83013E741C01DC120065B5C2 /* Security.framework */,
+				83013E721C01DBE90065B5C2 /* SystemConfiguration.framework */,
+				83013E701C01DB9B0065B5C2 /* OpenGLES.framework */,
+				83013E6E1C01DB780065B5C2 /* libicucore.dylib */,
+				83013E6C1C01DB680065B5C2 /* libstdc++.6.0.9.dylib */,
+				83013E6A1C01DB550065B5C2 /* libz.dylib */,
+				83013E681C01DB180065B5C2 /* CoreGraphics.framework */,
+				83013E641C01DAA30065B5C2 /* QuartzCore.framework */,
+				83013E621C01D9FB0065B5C2 /* Foundation.framework */,
+				83013E601C01D9F40065B5C2 /* UIKit.framework */,
+				83013E5D1C01D9710065B5C2 /* CoreFoundation.framework */,
+				83013E5B1C01D94C0065B5C2 /* CoreLocation.framework */,
+				83013E591C01D7C00065B5C2 /* SMS_SDK.framework */,
+				83013E571C01D7A20065B5C2 /* libPushSDK-1.8.3.a */,
+				83013E551C01D7930065B5C2 /* libWeChatSDK.a */,
+				83013E531C01D77B0065B5C2 /* MAMapKit.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+		83013E781C01E7A80065B5C2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				83013E7A1C01E7E50065B5C2 /* MainViewController.h */,
+				83013E7B1C01E7E50065B5C2 /* MainViewController.m */,
+				83013E7C1C01E7E50065B5C2 /* MainViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		83013E791C01E7B10065B5C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83013E821C01ED260065B5C2 /* config.h */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +257,11 @@
 				TargetAttributes = {
 					83013E251C018E190065B5C2 = {
 						CreatedOnToolsVersion = 6.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					83013E3E1C018E190065B5C2 = {
 						CreatedOnToolsVersion = 6.4;
@@ -199,8 +293,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83013E351C018E190065B5C2 /* Main.storyboard in Resources */,
 				83013E3A1C018E190065B5C2 /* LaunchScreen.xib in Resources */,
+				83013E7E1C01E7E50065B5C2 /* MainViewController.xib in Resources */,
+				83013E871C0333640065B5C2 /* AMap.bundle in Resources */,
 				83013E371C018E190065B5C2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +314,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83013E321C018E190065B5C2 /* ViewController.m in Sources */,
 				83013E2F1C018E190065B5C2 /* AppDelegate.m in Sources */,
+				83013E7D1C01E7E50065B5C2 /* MainViewController.m in Sources */,
 				83013E2C1C018E190065B5C2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +339,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		83013E331C018E190065B5C2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83013E341C018E190065B5C2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		83013E381C018E190065B5C2 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,8 +434,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dji/Gaode",
+					"$(PROJECT_DIR)/dji/Framework/Mamap",
+					"$(PROJECT_DIR)/dji/Framework/Sms",
+				);
 				INFOPLIST_FILE = dji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dji/WXAPI",
+					"$(PROJECT_DIR)/dji/Framework/WechatShare",
+					"$(PROJECT_DIR)/dji/Framework/JPush",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -357,8 +458,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dji/Gaode",
+					"$(PROJECT_DIR)/dji/Framework/Mamap",
+					"$(PROJECT_DIR)/dji/Framework/Sms",
+				);
 				INFOPLIST_FILE = dji/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dji/WXAPI",
+					"$(PROJECT_DIR)/dji/Framework/WechatShare",
+					"$(PROJECT_DIR)/dji/Framework/JPush",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +531,7 @@
 				83013E4B1C018E190065B5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83013E4C1C018E190065B5C2 /* Build configuration list for PBXNativeTarget "djiTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +540,7 @@
 				83013E4E1C018E190065B5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

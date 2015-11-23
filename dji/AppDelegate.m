@@ -7,16 +7,25 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainViewController.h"
+#import <MAMapKit/MAMapKit.h>
 @interface AppDelegate ()
-
+{
+    MainViewController * _mainVC;
+}
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    _mainVC = [[MainViewController alloc] init];
+        
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = _mainVC;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
