@@ -8,10 +8,14 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "LiveViewController.h"
+#import "SocketViewController.h"
 #import <MAMapKit/MAMapKit.h>
 @interface AppDelegate ()
 {
     MainViewController * _mainVC;
+    LiveViewController *_liveVC;
+    SocketViewController *_socketVC;
 }
 @end
 
@@ -21,9 +25,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     _mainVC = [[MainViewController alloc] init];
-        
+    _liveVC = [[LiveViewController alloc]init];
+    _socketVC = [[SocketViewController alloc]init];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = _mainVC;
+    self.window.rootViewController = _liveVC;
     [self.window makeKeyAndVisible];
     
     return YES;

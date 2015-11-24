@@ -31,6 +31,18 @@
 		83465EF11C0377950039C86C /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E551C01D7930065B5C2 /* libWeChatSDK.a */; };
 		83465EF21C0377A30039C86C /* libPushSDK-1.8.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E571C01D7A20065B5C2 /* libPushSDK-1.8.3.a */; };
 		83465EF31C0377B50039C86C /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E591C01D7C00065B5C2 /* SMS_SDK.framework */; };
+		83465EF51C04A79C0039C86C /* libstream.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83465EF41C04A79C0039C86C /* libstream.a */; };
+		83465EF81C04A7B40039C86C /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83465EF71C04A7B40039C86C /* LiveViewController.m */; };
+		83465EFD1C04B1880039C86C /* SocketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83465EFB1C04B1880039C86C /* SocketViewController.m */; };
+		83465EFE1C04B1880039C86C /* SocketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83465EFC1C04B1880039C86C /* SocketViewController.xib */; };
+		83465F011C04B4DC0039C86C /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 83465F001C04B4DC0039C86C /* AsyncSocket.m */; };
+		83465F031C04BC6E0039C86C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83465F021C04BC6E0039C86C /* AVFoundation.framework */; };
+		83465F051C04BC8E0039C86C /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83465F041C04BC8E0039C86C /* CoreAudio.framework */; };
+		83465F071C04BC970039C86C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83465F061C04BC970039C86C /* CoreVideo.framework */; };
+		83465F091C04BC9F0039C86C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83465F081C04BC9F0039C86C /* CoreMedia.framework */; };
+		83465F0B1C04BCB60039C86C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83465F0A1C04BCB60039C86C /* MediaPlayer.framework */; };
+		83465F0D1C04BCBC0039C86C /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83465F0C1C04BCBC0039C86C /* OpenAL.framework */; };
+		83465F0F1C04BCD50039C86C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83465F0E1C04BCD50039C86C /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +88,22 @@
 		83013E7C1C01E7E50065B5C2 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ViewController/MainViewController.xib; sourceTree = "<group>"; };
 		83013E821C01ED260065B5C2 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = Model/config.h; sourceTree = "<group>"; };
 		83013E861C0333640065B5C2 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = dji/Framework/Mamap/MAMapKit.framework/Versions/2.5.1.174fe76.60159/Resources/AMap.bundle; sourceTree = "<group>"; };
+		83465EF41C04A79C0039C86C /* libstream.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libstream.a; path = dji/Framework/RTSP/libstream.a; sourceTree = "<group>"; };
+		83465EF61C04A7B40039C86C /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LiveViewController.h; path = ViewController/LiveViewController.h; sourceTree = "<group>"; };
+		83465EF71C04A7B40039C86C /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LiveViewController.m; path = ViewController/LiveViewController.m; sourceTree = "<group>"; };
+		83465EF91C04A84E0039C86C /* LiveStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LiveStream.h; path = Framework/RTSP/LiveStream.h; sourceTree = "<group>"; };
+		83465EFA1C04B1880039C86C /* SocketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketViewController.h; path = ViewController/SocketViewController.h; sourceTree = "<group>"; };
+		83465EFB1C04B1880039C86C /* SocketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketViewController.m; path = ViewController/SocketViewController.m; sourceTree = "<group>"; };
+		83465EFC1C04B1880039C86C /* SocketViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SocketViewController.xib; path = ViewController/SocketViewController.xib; sourceTree = "<group>"; };
+		83465EFF1C04B4DC0039C86C /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = Model/AsyncSocket.h; sourceTree = "<group>"; };
+		83465F001C04B4DC0039C86C /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = Model/AsyncSocket.m; sourceTree = "<group>"; };
+		83465F021C04BC6E0039C86C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		83465F041C04BC8E0039C86C /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		83465F061C04BC970039C86C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		83465F081C04BC9F0039C86C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		83465F0A1C04BCB60039C86C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		83465F0C1C04BCBC0039C86C /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		83465F0E1C04BCD50039C86C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +111,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83465F0F1C04BCD50039C86C /* AudioToolbox.framework in Frameworks */,
+				83465F0D1C04BCBC0039C86C /* OpenAL.framework in Frameworks */,
+				83465F0B1C04BCB60039C86C /* MediaPlayer.framework in Frameworks */,
+				83465F091C04BC9F0039C86C /* CoreMedia.framework in Frameworks */,
+				83465F071C04BC970039C86C /* CoreVideo.framework in Frameworks */,
+				83465F051C04BC8E0039C86C /* CoreAudio.framework in Frameworks */,
+				83465F031C04BC6E0039C86C /* AVFoundation.framework in Frameworks */,
+				83465EF51C04A79C0039C86C /* libstream.a in Frameworks */,
 				83465EF31C0377B50039C86C /* SMS_SDK.framework in Frameworks */,
 				83465EF21C0377A30039C86C /* libPushSDK-1.8.3.a in Frameworks */,
 				83465EF11C0377950039C86C /* libWeChatSDK.a in Frameworks */,
@@ -115,6 +151,14 @@
 		83013E1D1C018E190065B5C2 = {
 			isa = PBXGroup;
 			children = (
+				83465F0E1C04BCD50039C86C /* AudioToolbox.framework */,
+				83465F0C1C04BCBC0039C86C /* OpenAL.framework */,
+				83465F0A1C04BCB60039C86C /* MediaPlayer.framework */,
+				83465F081C04BC9F0039C86C /* CoreMedia.framework */,
+				83465F061C04BC970039C86C /* CoreVideo.framework */,
+				83465F041C04BC8E0039C86C /* CoreAudio.framework */,
+				83465F021C04BC6E0039C86C /* AVFoundation.framework */,
+				83465EF41C04A79C0039C86C /* libstream.a */,
 				83013E861C0333640065B5C2 /* AMap.bundle */,
 				83013E5F1C01D98B0065B5C2 /* frameworks */,
 				83013E281C018E190065B5C2 /* dji */,
@@ -199,9 +243,15 @@
 		83013E781C01E7A80065B5C2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				83465EF91C04A84E0039C86C /* LiveStream.h */,
+				83465EF61C04A7B40039C86C /* LiveViewController.h */,
+				83465EF71C04A7B40039C86C /* LiveViewController.m */,
 				83013E7A1C01E7E50065B5C2 /* MainViewController.h */,
 				83013E7B1C01E7E50065B5C2 /* MainViewController.m */,
 				83013E7C1C01E7E50065B5C2 /* MainViewController.xib */,
+				83465EFA1C04B1880039C86C /* SocketViewController.h */,
+				83465EFB1C04B1880039C86C /* SocketViewController.m */,
+				83465EFC1C04B1880039C86C /* SocketViewController.xib */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -209,6 +259,8 @@
 		83013E791C01E7B10065B5C2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				83465EFF1C04B4DC0039C86C /* AsyncSocket.h */,
+				83465F001C04B4DC0039C86C /* AsyncSocket.m */,
 				83013E821C01ED260065B5C2 /* config.h */,
 			);
 			name = Model;
@@ -304,6 +356,7 @@
 				83013E7E1C01E7E50065B5C2 /* MainViewController.xib in Resources */,
 				83013E871C0333640065B5C2 /* AMap.bundle in Resources */,
 				83013E371C018E190065B5C2 /* Images.xcassets in Resources */,
+				83465EFE1C04B1880039C86C /* SocketViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,8 +374,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83465EFD1C04B1880039C86C /* SocketViewController.m in Sources */,
 				83013E2F1C018E190065B5C2 /* AppDelegate.m in Sources */,
 				83013E7D1C01E7E50065B5C2 /* MainViewController.m in Sources */,
+				83465F011C04B4DC0039C86C /* AsyncSocket.m in Sources */,
+				83465EF81C04A7B40039C86C /* LiveViewController.m in Sources */,
 				83013E2C1C018E190065B5C2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,8 +453,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -437,6 +494,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
@@ -444,7 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhiyang Zhang (K7LJHX8EVS)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -454,20 +512,22 @@
 					"$(PROJECT_DIR)/dji/Framework/Sms",
 				);
 				INFOPLIST_FILE = dji/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/dji/Framework/Mamap",
 					"$(PROJECT_DIR)/dji/Framework/WechatShare",
 					"$(PROJECT_DIR)/dji/Framework/JPush",
+					"$(PROJECT_DIR)/dji/Framework/RTSP",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zzy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -475,7 +535,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhiyang Zhang (K7LJHX8EVS)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -485,20 +545,22 @@
 					"$(PROJECT_DIR)/dji/Framework/Sms",
 				);
 				INFOPLIST_FILE = dji/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/dji/Framework/Mamap",
 					"$(PROJECT_DIR)/dji/Framework/WechatShare",
 					"$(PROJECT_DIR)/dji/Framework/JPush",
+					"$(PROJECT_DIR)/dji/Framework/RTSP",
 				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zzy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
@@ -519,6 +581,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zzy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dji.app/dji";
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -535,6 +598,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zzy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dji.app/dji";
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};

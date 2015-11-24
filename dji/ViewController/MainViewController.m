@@ -44,7 +44,8 @@
     
     _mapView.pausesLocationUpdatesAutomatically = NO;
     
-    _mapView.delegate = self; [self.view addSubview:_mapView];
+    _mapView.delegate = self;
+    [self.view addSubview:_mapView];
 }
 
 - (void)mapView:(MAMapView *)mapView didUpdateUserLocation:(MAUserLocation *)userLocation updatingLocation:(BOOL)updatingLocation
