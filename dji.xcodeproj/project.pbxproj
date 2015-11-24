@@ -28,6 +28,9 @@
 		83013E7D1C01E7E50065B5C2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83013E7B1C01E7E50065B5C2 /* MainViewController.m */; };
 		83013E7E1C01E7E50065B5C2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83013E7C1C01E7E50065B5C2 /* MainViewController.xib */; };
 		83013E871C0333640065B5C2 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83013E861C0333640065B5C2 /* AMap.bundle */; };
+		83465EF11C0377950039C86C /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E551C01D7930065B5C2 /* libWeChatSDK.a */; };
+		83465EF21C0377A30039C86C /* libPushSDK-1.8.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E571C01D7A20065B5C2 /* libPushSDK-1.8.3.a */; };
+		83465EF31C0377B50039C86C /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83013E591C01D7C00065B5C2 /* SMS_SDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83465EF31C0377B50039C86C /* SMS_SDK.framework in Frameworks */,
+				83465EF21C0377A30039C86C /* libPushSDK-1.8.3.a in Frameworks */,
+				83465EF11C0377950039C86C /* libWeChatSDK.a in Frameworks */,
 				83013E771C01DC5C0065B5C2 /* CoreTelephony.framework in Frameworks */,
 				83013E751C01DC120065B5C2 /* Security.framework in Frameworks */,
 				83013E731C01DBE90065B5C2 /* SystemConfiguration.framework in Frameworks */,
@@ -252,11 +258,12 @@
 		83013E1E1C018E190065B5C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "张志阳";
 				TargetAttributes = {
 					83013E251C018E190065B5C2 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3A3Q6559K4;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -370,7 +377,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -413,6 +422,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -434,23 +444,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/dji/Gaode",
 					"$(PROJECT_DIR)/dji/Framework/Mamap",
+					"$(PROJECT_DIR)/dji/Framework/WechatShare",
 					"$(PROJECT_DIR)/dji/Framework/Sms",
 				);
 				INFOPLIST_FILE = dji/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/dji/WXAPI",
+					"$(PROJECT_DIR)/dji/Framework/Mamap",
 					"$(PROJECT_DIR)/dji/Framework/WechatShare",
 					"$(PROJECT_DIR)/dji/Framework/JPush",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zzy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,23 +475,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/dji/Gaode",
 					"$(PROJECT_DIR)/dji/Framework/Mamap",
+					"$(PROJECT_DIR)/dji/Framework/WechatShare",
 					"$(PROJECT_DIR)/dji/Framework/Sms",
 				);
 				INFOPLIST_FILE = dji/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/dji/WXAPI",
+					"$(PROJECT_DIR)/dji/Framework/Mamap",
 					"$(PROJECT_DIR)/dji/Framework/WechatShare",
 					"$(PROJECT_DIR)/dji/Framework/JPush",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zzy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -492,6 +516,7 @@
 				);
 				INFOPLIST_FILE = djiTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zzy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dji.app/dji";
 			};
@@ -507,6 +532,7 @@
 				);
 				INFOPLIST_FILE = djiTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zzy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dji.app/dji";
 			};
