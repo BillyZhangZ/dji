@@ -43,6 +43,7 @@
 		83465F0B1C04BCB60039C86C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83465F0A1C04BCB60039C86C /* MediaPlayer.framework */; };
 		83465F0D1C04BCBC0039C86C /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83465F0C1C04BCBC0039C86C /* OpenAL.framework */; };
 		83465F0F1C04BCD50039C86C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83465F0E1C04BCD50039C86C /* AudioToolbox.framework */; };
+		83465F121C0AC61C0039C86C /* ControlPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83465F111C0AC61C0039C86C /* ControlPanel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +105,8 @@
 		83465F0A1C04BCB60039C86C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		83465F0C1C04BCBC0039C86C /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		83465F0E1C04BCD50039C86C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		83465F101C0AC61C0039C86C /* ControlPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControlPanel.h; path = ViewController/ControlPanel.h; sourceTree = "<group>"; };
+		83465F111C0AC61C0039C86C /* ControlPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControlPanel.m; path = ViewController/ControlPanel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,13 +154,6 @@
 		83013E1D1C018E190065B5C2 = {
 			isa = PBXGroup;
 			children = (
-				83465F0E1C04BCD50039C86C /* AudioToolbox.framework */,
-				83465F0C1C04BCBC0039C86C /* OpenAL.framework */,
-				83465F0A1C04BCB60039C86C /* MediaPlayer.framework */,
-				83465F081C04BC9F0039C86C /* CoreMedia.framework */,
-				83465F061C04BC970039C86C /* CoreVideo.framework */,
-				83465F041C04BC8E0039C86C /* CoreAudio.framework */,
-				83465F021C04BC6E0039C86C /* AVFoundation.framework */,
 				83465EF41C04A79C0039C86C /* libstream.a */,
 				83013E861C0333640065B5C2 /* AMap.bundle */,
 				83013E5F1C01D98B0065B5C2 /* frameworks */,
@@ -219,6 +215,13 @@
 		83013E5F1C01D98B0065B5C2 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83465F0E1C04BCD50039C86C /* AudioToolbox.framework */,
+				83465F0C1C04BCBC0039C86C /* OpenAL.framework */,
+				83465F0A1C04BCB60039C86C /* MediaPlayer.framework */,
+				83465F081C04BC9F0039C86C /* CoreMedia.framework */,
+				83465F061C04BC970039C86C /* CoreVideo.framework */,
+				83465F041C04BC8E0039C86C /* CoreAudio.framework */,
+				83465F021C04BC6E0039C86C /* AVFoundation.framework */,
 				83013E761C01DC5C0065B5C2 /* CoreTelephony.framework */,
 				83013E741C01DC120065B5C2 /* Security.framework */,
 				83013E721C01DBE90065B5C2 /* SystemConfiguration.framework */,
@@ -252,6 +255,8 @@
 				83465EFA1C04B1880039C86C /* SocketViewController.h */,
 				83465EFB1C04B1880039C86C /* SocketViewController.m */,
 				83465EFC1C04B1880039C86C /* SocketViewController.xib */,
+				83465F101C0AC61C0039C86C /* ControlPanel.h */,
+				83465F111C0AC61C0039C86C /* ControlPanel.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -374,6 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83465F121C0AC61C0039C86C /* ControlPanel.m in Sources */,
 				83465EFD1C04B1880039C86C /* SocketViewController.m in Sources */,
 				83013E2F1C018E190065B5C2 /* AppDelegate.m in Sources */,
 				83013E7D1C01E7E50065B5C2 /* MainViewController.m in Sources */,

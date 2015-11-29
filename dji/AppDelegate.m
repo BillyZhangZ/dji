@@ -29,7 +29,7 @@
     _socketVC = [[SocketViewController alloc]init];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = _liveVC;
+    self.window.rootViewController = _mainVC;
     [self.window makeKeyAndVisible];
     
     return YES;
