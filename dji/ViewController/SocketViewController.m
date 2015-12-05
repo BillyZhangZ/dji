@@ -68,13 +68,8 @@
         if (![client connectToHost:hostIP onPort:hostPort error:&err]) {
             NSLog(@"%ld %@", (long)[err code], [err localizedDescription]);
             
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[@"Connection failed to host "
-                                                                     stringByAppendingString:hostIP]
-                                                            message:[[[NSString alloc]initWithFormat:@"%ld",(long)[err code]] stringByAppendingString:[err localizedDescription]]
-                                                           delegate:self
-                                                  cancelButtonTitle:@"OK"
-                                                  otherButtonTitles:nil];
-            [alert show];
+            UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"connection failed to host" message:[[[NSString alloc]initWithFormat:@"%ld",(long)[err code]] stringByAppendingString:[err localizedDescription]] preferredStyle:UIAlertControllerStyleAlert];
+            [self presentViewController:alertController animated:YES completion:nil];
             //client = nil;
             return SRV_CONNECT_FAIL;
         } else {
@@ -131,12 +126,8 @@
 #pragma mark socket uitl
 
 - (void) showMessage:(NSString *) msg{
-    UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Alert!"
-                                                    message:msg
-                                                   delegate:nil
-                                          cancelButtonTitle:@"OK"
-                                          otherButtonTitles:nil];
-    [alert show];
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"connection failed to host" message:msg preferredStyle:UIAlertControllerStyleAlert];
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 
 
