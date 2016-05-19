@@ -34,8 +34,10 @@
     [self.view addSubview:_imageView];
     
 	_liveStream = [[LiveStream alloc] init];
-    [self setUrl:  @"rtsp://218.204.223.237:554/live/1/67A7572844E51A64/f68g2mj7wjua3la7.sdp"];
-    
+    //[self setUrl:  @"rtsp://218.204.223.237:554/live/1/67A7572844E51A64/f68g2mj7wjua3la7.sdp"];
+    //test local
+    //[self setUrl:  @"rtsp://192.168.1.10:554/user=admin&password=&channel=1&stream=0.sdp?real_stream"];
+
     [_liveStream setUrl:[self url]];
     [_liveStream setImageView:[self imageView]];
     [_liveStream startLive];

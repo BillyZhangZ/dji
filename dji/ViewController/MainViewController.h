@@ -11,7 +11,7 @@
 #define SRV_CONNECTED 0
 #define SRV_CONNECT_SUC 1
 #define SRV_CONNECT_FAIL 2
-#define SERVER_IP @"192.168.1.103"
+#define SERVER_IP @"192.168.1.10"
 #define SERVER_PORT 5000
 
 

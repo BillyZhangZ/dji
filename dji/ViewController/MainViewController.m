@@ -89,14 +89,18 @@
     
     
     _imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, CGRectGetHeight(self.view.bounds)*3/4, CGRectGetWidth(self.view.bounds)/4, CGRectGetHeight(self.view.bounds)/4)];
+    //_imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0,0, self.view.bounds.size.width, self.view.bounds.size.height)];
+
     _imageView.userInteractionEnabled = YES;
     UITapGestureRecognizer *singleTap1 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onImageView:)];
     [_imageView addGestureRecognizer:singleTap1];
     
     
     _liveStream = [[LiveStream alloc] init];
-    _url = @"rtsp://218.204.223.237:554/live/1/67A7572844E51A64/f68g2mj7wjua3la7.sdp";
-    
+    //_url = @"rtsp://218.204.223.237:554/live/1/67A7572844E51A64/f68g2mj7wjua3la7.sdp";
+    //local stream
+    _url =   @"rtsp://192.168.1.10:554/user=admin&password=&channel=1&stream=1.sdp?real_stream";
+
     [_liveStream setUrl: _url];
     [_liveStream setImageView:_imageView];
     [_liveStream startLive];
@@ -174,7 +178,7 @@
     [self.view addSubview:upButton];
     [self.view addSubview:downButton];
     
-    [self connectServer:SERVER_IP port:SERVER_PORT];
+    //[self connectServer:SERVER_IP port:SERVER_PORT];
 
 }
 
